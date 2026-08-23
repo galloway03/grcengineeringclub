@@ -10,10 +10,10 @@ One build a week, six weeks, each one harder than the last. You start with a sin
 
 ### [Week 1: Create a compliant resource]( https://github.com/galloway03/grcengineeringclub/tree/main/Challenges/Week%201) - AWS s3 buckets
 Creating a compliant resource using Terraform to enforce:
-+ encryption
-+ public access blocks
-+ version control
-+ required tags
++ SC-28 Encryption
++ AC-3 and AC-6 Public access blocks
++ CM-6 Version control
++ CM-6 Required tags
 
 ### [Week 2: Execute Rules from a Terraform plan](https://github.com/galloway03/grcengineeringclub/edit/main/Challenges/week%202/README.md)
 Create three Rego rules that check compliance and provide output as evidence an auditor can pull at any time. Shows passing and failing compliance rules with recommendations for remediation. Controls checked: 
