@@ -1,6 +1,4 @@
 # grc-gate: run the policy gate on every pull request.
-# This is a skeleton. The steps marked TODO are yours to write. The brief on
-# Patreon explains what each one does and why.
 
 name: grc-gate
 
