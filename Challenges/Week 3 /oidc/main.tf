@@ -13,10 +13,10 @@ provider "aws" { region = "us-east-1" }
 variable "github_org"  { type = string }
 variable "github_repo" { type = string }
 
-gh variable set AWS_ROLE_ARN \
-  --body "arn:aws:iam::ACCOUNT:role/cgep-grc-gate" \
+gh variable set AWS_ROLE_ARN {
+  --body "arn:aws:iam::ACCOUNT:role/cgep-grc-gate" 
   --repo "A & M Strategies"/"grcengineeringclub"
-
+}
 resource "aws_iam_openid_connect_provider" "github" {
   url             = "https://token.actions.githubusercontent.com"
   client_id_list  = ["sts.amazonaws.com"]
