@@ -3,7 +3,7 @@
 # Patreon explains what each one does and why.
 
 name: grc-gate
-å
+
 on:
   pull_request:
     branches: [main]
